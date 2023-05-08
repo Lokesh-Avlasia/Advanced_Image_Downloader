@@ -3,16 +3,6 @@ from flask import Flask,request,redirect,url_for,render_template
 from scrapper import main
 from mail import mail
 
-# from email.mime.multipart import MIMEMultipart
-# from email.mime.base import MIMEBase
-# from email.mime.text import MIMEText
-# from email.utils import COMMASPACE
-# from email import encoders
-# import os
-
-# from flask_cors import cross_origin
-# from Scheduler import ScheduleJob
-# from Logger import Logging
 
 app = Flask(__name__)
 
